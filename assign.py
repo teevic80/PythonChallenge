@@ -1,4 +1,4 @@
-# This program assigns values to variables.
+# This program assigns values to variables...
 
 name = "Victoria"
 
