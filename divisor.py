@@ -2,5 +2,8 @@
 
 x = range(1, 100)
 
+input("Type a number.")
+
 for num in x:
-    print(num)
+    if input <= 100 and num % input == 0:
+        print(num)
