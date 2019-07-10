@@ -2,6 +2,6 @@
 
 a = [11, 1, 2, 3, 34, 56, 5, 55, 4, 9 ]
 
-list.sort(a)
+list.sort(a) #This returns a sorted list
 
-print(a[0:5])
+print(a[0:5]) #This returns the first five values of the sorted list
