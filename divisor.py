@@ -2,8 +2,8 @@
 
 x = range(1, 100)
 
-input("Type a number.")
+var = input("Type a number: ")
 
 for num in x:
-    if input <= 100 and num % input == 0:
+    if num in var < 100 and num % var == 0:
         print(num)
