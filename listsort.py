@@ -1,4 +1,4 @@
-#This program returns the first five values of a sorted list
+#This program sorts a list then returns the first five values of the list
 
 a = [11, 1, 2, 3, 34, 56, 5, 55, 4, 9 ]
 
