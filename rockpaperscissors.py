@@ -4,10 +4,18 @@ import random
 
 game_values = ("Rock", "Paper", "Scissors")
 
-game_start = (input("Welcome to Rock Paper Scissors! Would you like to play? "))
+game_start = (input("Rock Paper Scissors! Would you like to play? "))
 
 
 while True:
     if game_start == "yes":
-        print(input("Rock, Paper, Scissors?"))
+        yes_game = input("Rock, Paper, Scissors? ")
+        if yes_game == "Rock" "Paper" "Scissors":
+            print (random.choice(game_values))
+            
+        else:
+            print("Your input is invalid.")      
+    else:
+        print
+        break
     

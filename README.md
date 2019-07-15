@@ -1,2 +1,2 @@
 # PythonChallenge
-This repositoriy contains my python practice attempts.
+A list of my python challenges, from beginner upwards.
