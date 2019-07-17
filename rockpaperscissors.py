@@ -12,6 +12,12 @@ while True:
         yes_game = input("Rock, Paper, Scissors? ")
         print("My Choice is...")
         print(random.choice(game_values))
+    else:
+        if game_start == "no":
+            print("Your input is invalid.")
+            break
+
+    
         
 # 
     #     else:
