@@ -10,10 +10,9 @@ game_start = (input("Rock Paper Scissors! Would you like to play? "))
 while True:
     if game_start == "yes":
         yes_game = input("Rock, Paper, Scissors? ")
+        print("My Choice is...")
         
-        
-print(random.choice(game_values))
-            
+# 
     #     else:
     #         print("Your input is invalid.")      
     # else:
