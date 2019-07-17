@@ -11,6 +11,7 @@ while True:
     if game_start == "yes":
         yes_game = input("Rock, Paper, Scissors? ")
         print("My Choice is...")
+        print(random.choice(game_values))
         
 # 
     #     else:
