@@ -14,10 +14,12 @@ while True:
         print(random.choice(game_values))
     else:
         if game_start == "no":
-            print("Your input is invalid.")
+            print("Game Closed")
             break
+        else:
+            print("Your input is invalid")
 
-    
+# if yes_game == "Rock" and     
         
 # 
     #     else:
