@@ -18,14 +18,21 @@ while True:
             break
         else:
             print("Your input is invalid")
+    
+    if mine == rock and yes_game == paper:
+        print ("You've won this round.")
+    else:
+        print ("You loose this round.")
 
-if mine == rock and yes_game == paper:
-    print ("You've won this round.")
-else:
-    print ("You loose this round.")
+    if mine == scissors and yes_game == rock:
+        print ("You've won this round.")
+    else:
+        print ("You loose this round")
 
-if mine == scissors and yes_game == rock:
-    print ("You've won this round.")
+    if mine == paper and yes_game == scissors:
+        print ("You've lost this round")
+    else:
+        print ("You've won this round")
 
 # if yes_game == "Rock" and     
         
