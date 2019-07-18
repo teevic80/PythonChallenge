@@ -37,19 +37,17 @@ import random
 #     else:
 #         print ("You've won this round")
 
-def to_play():
 
+outcomes = ("Rocks", "Paper", "Scissors")
+
+def to_play():
     input("Would you like to play? ")
     while True:
-        print(input("Rock, Paper, Scissors? "))
+        input("Rock, Paper, Scissors? ")
     else:
         print("Closing Game.....  Game CLOSED")
 
 
 to_play()
 
-def chooser():
-    outcomes = ("Rock", "Paper", "Scissors")
-    return random.choice(outcomes)
-
-chooser()
+print(random.choice(outcomes))
