@@ -2,6 +2,7 @@
 
 x, y = 0, 1
 
-while y <= 100:
-    return y, x + y
+while y <= 1000:
+    x, y = y, x + y
+    print(x)
 
