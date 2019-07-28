@@ -19,7 +19,7 @@ This repository contains my Python challenges attempts and tracks my progress.
 | 13. | reverse.py | ✔ | This program reverses the order of values in an array. |
 | 14. | listsort.py | ✔ | This program sorts a list then returns the first five values of the list. |
 | 15. | listends.py | ✔ | This is a function that returns the first and last values in a list. |
-| 16. | addsmallest.py | ✔ | -- |
+| 16. | addsmallest.py | ✔ | This is a function that returns the sum of the two lowest positive numbers given an array |
 | 17. | simpleinterest.py | - | -- |
 | 18. | stringfilter.py | ✔ | This is a function that returns a new list with the strings filtered out. |
 | 19. | guessingame.py | - | This program lets you guess a name and check if it's the same as the one in the game. |
